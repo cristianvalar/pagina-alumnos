@@ -1,0 +1,98 @@
+article {
+	border: #000 1px solid;
+	margin: 20px;
+	padding: 10px;
+}
+
+article img {
+	float: left;
+	padding: .6em;
+	width: 30%;
+}
+
+body {
+	background: #eee; /* Color de fondo */
+	color: #666;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%;
+}
+
+header {
+	text-align: center; /* Con esto centro todos los elementos inline */
+}
+
+nav {
+	background-color: #000;
+}
+
+nav a {
+	color: #999;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+nav li {
+	display: inline-block; /* Pone los li de forma horizontal */
+	list-style: none; /* Quita las viñetas */
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* #contenedor: selecciona al elemento UNICO que tiene un id="contenedor" */
+#contenedor {
+	background: #fff;
+	border: #999 1px solid;
+	margin: 0 auto; /* Esto centrar elementos de bloque */
+	max-width: 960px; /* Ancho máximo */
+}
+
+#eventos,
+#noticias,
+#redes-sociales,
+#slider {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#eventos {
+	background-color: yellow;
+	float: right;
+	width: 40%;
+}
+
+#logo {
+	padding: 1em;
+}
+
+#noticias {
+	width: 60%;
+}
+
+#redes-sociales {
+	background-color: green;
+	width: 40%;
+}
+
+#slider {
+	background-color: red;
+	float: left;
+	width: 60%;
+}
